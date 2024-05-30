@@ -23,7 +23,7 @@ function Header() {
           </Reveal>
           <Reveal>
           <h3 className='text-5xl font-medium text-gray-300 text-center  '>
-            <span>{text}</span>
+            <span className='py-2'>{text}</span>
             <span className='text-[#3fcf8e]'>{<Cursor />}</span>
           </h3>
           </Reveal>
