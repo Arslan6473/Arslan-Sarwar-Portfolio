@@ -26,9 +26,9 @@ function Myprojects() {
         <h2 className="text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">My Projects</h2>
         </Reveal>
       </div>
-      <div className="grid lg:grid-cols-3 gap-y-9 gap-x-2 w-full justify-items-center items-center grid-cols-1 2xl:px-28 mt-15 mx-auto">
+      <div className="grid lg:grid-cols-3 gap-y-9 gap-x-3 w-full justify-items-center items-center grid-cols-1 2xl:px-28 mt-15 mx-auto">
       <Reveal>
-        <div className="w-96   bg-[#242424] shadow-lg p-3 flex flex-col gap-1 rounded-2xl">
+        <div className="w-96  bg-[#242424] shadow-lg p-3 flex flex-col gap-1 rounded-2xl">
           <img
             src={coinworld}
             className="object-cover w-full rounded-2xl bg-gray-50"
