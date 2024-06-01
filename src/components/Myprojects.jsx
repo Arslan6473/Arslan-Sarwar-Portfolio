@@ -2,6 +2,7 @@ import React from 'react'
 import coinworld from '../assets/coinworld.png'
 import tourist from '../assets/tourist.png'
 import blog from '../assets/blog.png'
+import music from '../assets/music.png'
 import ecommerce from '../assets/ecommerce.png'
 import pharmacy from '../assets/pharmacy.png'
 import { FaHtml5 } from "react-icons/fa";
