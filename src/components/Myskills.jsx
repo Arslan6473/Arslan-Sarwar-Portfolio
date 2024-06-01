@@ -16,6 +16,7 @@ import { FaGithub } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
 import { SiPostman } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill } from "react-icons/ri";
 import Reveal from './Reveal'
 
 export default function Myskills() {
@@ -42,6 +43,7 @@ export default function Myskills() {
                 <span className='p-1 rounded-md  flex items-center justify-center text-md gap-1 bg-gray-300 ' ><FaCss3Alt className='text-xl' /><span>CSS3</span> </span>
                 <span className='p-1 rounded-md  flex items-center justify-center text-md gap-1 bg-gray-300 ' ><IoLogoJavascript className='text-xl' /><span>JavaScript</span> </span>
                 <span className='p-1 rounded-md  flex items-center justify-center text-md gap-1 bg-gray-300 ' ><FaReact className='text-xl' /><span>React</span> </span>
+                <span className='p-1 rounded-md flex items-center justify-center text-md gap-1 bg-gray-300 ' ><RiNextjsFill className='text-xl' /><span>Next</span> </span>
                 <span className='p-1 rounded-md flex items-center justify-center text-md gap-1 bg-gray-300 ' ><TbBrandRedux className='text-xl' /><span>Redux</span> </span>
                 <span className='p-1 rounded-md  flex items-center justify-center text-md gap-1 bg-gray-300 ' ><RiTailwindCssFill className='text-xl' /><span>TailwindCSS</span> </span>
                 <span className='p-1 rounded-md flex items-center justify-center text-md gap-1 bg-gray-300 ' ><FaBootstrap className='text-xl' /><span>Bootstrap</span> </span>
