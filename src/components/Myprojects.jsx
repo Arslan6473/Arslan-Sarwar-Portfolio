@@ -5,6 +5,8 @@ import blog from '../assets/blog.png'
 import music from '../assets/music.png'
 import ecommerce from '../assets/ecommerce.png'
 import pharmacy from '../assets/pharmacy.png'
+import rapid from '../assets/rapid.png'
+import farmers from '../assets/farmers.png'
 import { FaHtml5 } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -293,6 +295,106 @@ function Myprojects() {
               <span class="absolute delay-300 top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:translate-y-full h-full"></span>
             </button>
             </a> */}
+            </div>
+          </div>
+        </Reveal>
+        <Reveal>
+          <div className="w-96 bg-[#242424] shadow-lg p-3 flex flex-col gap-1 rounded-2xl">
+            <img
+              src={farmers}
+              className="object-cover h-42 w-full rounded-2xl bg-gray-50"
+              alt=""
+            />
+
+            <div className=' text-gray-300 '>
+              <p className='text-justify text-md p-1 h-40 pt-3'>A Mern stack application with an admin panel. In this application, users can see the list of popular crops, list of diseases, list
+                of pests. Users can buy pesticides according to their crops, pests, and diseases. List of pesticides where users can search
+                pesticides. Users can also see the weather forecast. I have also created an admin panel where the admin can see the orders,
+                and also edit and add new pesticides. Different modern libraries and frameworks have been used in this application like
+                React.js, Tailwind CSS, Redux Toolkit, Recat Hook Form, Node.js, Express.js, MongoDB, Jwt, etc.</p>
+            </div>
+            <div className="grid grid-cols-3 text-gray-300 gap-1 h-28 ">
+              <span className='flex items-center justify-center gap-1' ><FaHtml5 className='text-sm' /><span>HTML5</span> </span>
+              <span className='flex items-center justify-center gap-1' ><FaCss3Alt className='text-sm' /><span>CSS3</span> </span>
+              <span className=' flex items-center justify-center gap-1 ' ><IoLogoJavascript className='text-sm' /><span>JavaScript</span> </span>
+              <span className=' flex items-center justify-center gap-1' ><FaReact className='text-sm' /><span>React</span> </span>
+              <span className=' flex items-center justify-center gap-1' ><RiTailwindCssFill className='text-sm' /><span>TailwindCSS</span> </span>
+              <span className='flex items-center justify-center text-md gap-1 ' ><TbBrandRedux className='text-sm' /><span>Redux</span> </span>
+              <span className=' flex items-center justify-center text-md gap-1 ' ><FaNodeJs className='text-xl' /><span>Node</span> </span>
+              <span className='flex items-center justify-center text-md gap-1 ' ><SiExpress className='text-xl' /><span>Express</span> </span>
+              <span className='flex items-center justify-center text-md gap-1 ' ><SiMongoose className='text-xl' /><span>Mongoose</span> </span>
+              <span className=' flex items-center justify-center text-md gap-1 ' ><DiMongodb className='text-xl' /><span>MongoDB</span> </span>
+
+
+            </div>
+            <div className='flex justify-around'>
+              <a href="https://github.com/Arslan6473/farmers-care" target="_blank" rel="noopener noreferrer">
+                <button class="cursor-pointer relative group overflow-hidden border-2 mt-1 px-8 rounded-md py-2 border-[#3fcf8e]">
+                  <span class="font-bold text-white text-md relative z-10 group-hover:text-[#3fcf8e] duration-500">Code</span>
+                  <span class="absolute top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:-translate-x-full h-full"></span>
+                  <span class="absolute top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:translate-x-full h-full"></span>
+                  <span class="absolute top-0 left-0 w-full bg-[#3fcf8e] duration-500 delay-300 group-hover:-translate-y-full h-full"></span>
+                  <span class="absolute delay-300 top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:translate-y-full h-full"></span>
+                </button>
+              </a>
+              {/* <a href="https://github.com/Arslan6473" target="_blank" rel="noopener noreferrer">
+            <button class="cursor-pointer relative group overflow-hidden border-2 mt-1 px-8 rounded-md py-2 border-[#3fcf8e]">
+              <span class="font-bold text-white text-md relative z-10 group-hover:text-[#3fcf8e] duration-500">Live Demo</span>
+              <span class="absolute top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:-translate-x-full h-full"></span>
+              <span class="absolute top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:translate-x-full h-full"></span>
+              <span class="absolute top-0 left-0 w-full bg-[#3fcf8e] duration-500 delay-300 group-hover:-translate-y-full h-full"></span>
+              <span class="absolute delay-300 top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:translate-y-full h-full"></span>
+            </button>
+            </a> */}
+            </div>
+          </div>
+        </Reveal>
+        <Reveal>
+          <div className="w-96 bg-[#242424] shadow-lg p-3 flex flex-col gap-1 rounded-2xl">
+            <img
+              src={rapid}
+              className="object-cover h-42 w-full rounded-2xl bg-gray-50"
+              alt=""
+            />
+
+            <div className=' text-gray-300 '>
+              <p className='text-justify text-md p-1 h-40 pt-3'>Rapid Message is a Next.js application that allows users to send messages to each other. Each user has a unique username, 
+ensuring clear and distinct communication. Different modern libraries and frameworks have been used in this application like
+Next.js, TypeScript, Tailwind CSS, React Hook Form, NextAuth.js, Node.js, MongoDB, etc. Available on GitHub and deployed 
+on Vercel.
+</p>
+            </div>
+            <div className="grid grid-cols-3 text-gray-300 gap-1 h-28 ">
+              <span className='flex items-center justify-center gap-1' ><FaHtml5 className='text-sm' /><span>HTML5</span> </span>
+              <span className='flex items-center justify-center gap-1' ><FaCss3Alt className='text-sm' /><span>CSS3</span> </span>
+              <span className=' flex items-center justify-center gap-1 ' ><BiLogoTypescript className='text-sm' /><span>TypeScript</span> </span>
+              <span className=' flex items-center justify-center gap-1' ><RiNextjsFill className='text-sm' /><span>Next</span> </span>
+              <span className=' flex items-center justify-center gap-1' ><RiTailwindCssFill className='text-sm' /><span>TailwindCSS</span> </span>
+              <span className=' flex items-center justify-center text-md gap-1 ' ><FaNodeJs className='text-xl' /><span>Node</span> </span>
+              <span className='flex items-center justify-center text-md gap-1 ' ><SiMongoose className='text-xl' /><span>Mongoose</span> </span>
+              <span className=' flex items-center justify-center text-md gap-1 ' ><DiMongodb className='text-xl' /><span>MongoDB</span> </span>
+
+
+            </div>
+            <div className='flex justify-around'>
+              <a href="https://github.com/Arslan6473/farmers-care" target="_blank" rel="noopener noreferrer">
+                <button class="cursor-pointer relative group overflow-hidden border-2 mt-1 px-8 rounded-md py-2 border-[#3fcf8e]">
+                  <span class="font-bold text-white text-md relative z-10 group-hover:text-[#3fcf8e] duration-500">Code</span>
+                  <span class="absolute top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:-translate-x-full h-full"></span>
+                  <span class="absolute top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:translate-x-full h-full"></span>
+                  <span class="absolute top-0 left-0 w-full bg-[#3fcf8e] duration-500 delay-300 group-hover:-translate-y-full h-full"></span>
+                  <span class="absolute delay-300 top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:translate-y-full h-full"></span>
+                </button>
+              </a>
+              <a href="https://rapid-message-omega.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <button class="cursor-pointer relative group overflow-hidden border-2 mt-1 px-8 rounded-md py-2 border-[#3fcf8e]">
+              <span class="font-bold text-white text-md relative z-10 group-hover:text-[#3fcf8e] duration-500">Live Demo</span>
+              <span class="absolute top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:-translate-x-full h-full"></span>
+              <span class="absolute top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:translate-x-full h-full"></span>
+              <span class="absolute top-0 left-0 w-full bg-[#3fcf8e] duration-500 delay-300 group-hover:-translate-y-full h-full"></span>
+              <span class="absolute delay-300 top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:translate-y-full h-full"></span>
+            </button>
+            </a>
             </div>
           </div>
         </Reveal>
