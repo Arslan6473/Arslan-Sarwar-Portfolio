@@ -372,12 +372,12 @@ ensuring clear and distinct communication.
 
             </div>
             <div className='flex justify-around'>
-              <a href="https://github.com/Arslan6473/farmers-care" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Arslan6473/rapid-message" target="_blank" rel="noopener noreferrer">
                 <button class="cursor-pointer relative group overflow-hidden border-2 mt-1 px-8 rounded-md py-2 border-[#3fcf8e]">
                   <span class="font-bold text-white text-md relative z-10 group-hover:text-[#3fcf8e] duration-500">Code</span>
                   <span class="absolute top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:-translate-x-full h-full"></span>
                   <span class="absolute top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:translate-x-full h-full"></span>
-                  <span class="absolute top-0 left-0 w-full bg-[#3fcf8e] duration-500 delay-300 group-hover:-translate-y-full h-full"></span>
+                  <span class="absolute top-0 left-0 w-full bg-[#1f2e27] duration-500 delay-300 group-hover:-translate-y-full h-full"></span>
                   <span class="absolute delay-300 top-0 left-0 w-full bg-[#3fcf8e] duration-500 group-hover:translate-y-full h-full"></span>
                 </button>
               </a>
