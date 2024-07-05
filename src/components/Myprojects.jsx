@@ -307,7 +307,7 @@ function Myprojects() {
             />
 
             <div className=' text-gray-300 '>
-              <p className='text-justify text-md p-1 h-40 pt-3'>A Mern stack application with an admin panel. In this application, users can see the list of popular crops,  diseases and pests. Users can buy pesticides according to their crops, pests, and diseases. List of pesticides where users can search
+              <p className='text-justify text-md p-1 h-40 pt-3'>A Mern stack application . In this application, users can see the list of popular crops,  diseases and pests. Users can buy pesticides according to their crops, pests, and diseases. List of pesticides where users can search
                 pesticides. Users can also see the weather forecast. </p>
             </div>
             <div className="grid grid-cols-3 text-gray-300 gap-1 h-28 ">
