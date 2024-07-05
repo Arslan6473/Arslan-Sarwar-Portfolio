@@ -309,9 +309,7 @@ function Myprojects() {
             <div className=' text-gray-300 '>
               <p className='text-justify text-md p-1 h-40 pt-3'>A Mern stack application with an admin panel. In this application, users can see the list of popular crops, list of diseases, list
                 of pests. Users can buy pesticides according to their crops, pests, and diseases. List of pesticides where users can search
-                pesticides. Users can also see the weather forecast. I have also created an admin panel where the admin can see the orders,
-                and also edit and add new pesticides. Different modern libraries and frameworks have been used in this application like
-                React.js, Tailwind CSS, Redux Toolkit, Recat Hook Form, Node.js, Express.js, MongoDB, Jwt, etc.</p>
+                pesticides. Users can also see the weather forecast. </p>
             </div>
             <div className="grid grid-cols-3 text-gray-300 gap-1 h-28 ">
               <span className='flex items-center justify-center gap-1' ><FaHtml5 className='text-sm' /><span>HTML5</span> </span>
@@ -359,9 +357,7 @@ function Myprojects() {
 
             <div className=' text-gray-300 '>
               <p className='text-justify text-md p-1 h-40 pt-3'>Rapid Message is a Next.js application that allows users to send messages to each other. Each user has a unique username, 
-ensuring clear and distinct communication. Different modern libraries and frameworks have been used in this application like
-Next.js, TypeScript, Tailwind CSS, React Hook Form, NextAuth.js, Node.js, MongoDB, etc. Available on GitHub and deployed 
-on Vercel.
+ensuring clear and distinct communication. 
 </p>
             </div>
             <div className="grid grid-cols-3 text-gray-300 gap-1 h-28 ">
