@@ -43,7 +43,7 @@ export default function Myskills() {
                 <span className='p-1 rounded-md flex items-center justify-center text-md gap-1 bg-gray-300 ' ><FaHtml5 className='text-xl' /><span>HTML5</span> </span>
                 <span className='p-1 rounded-md  flex items-center justify-center text-md gap-1 bg-gray-300 ' ><FaCss3Alt className='text-xl' /><span>CSS3</span> </span>
                 <span className='p-1 rounded-md  flex items-center justify-center text-md gap-1 bg-gray-300 ' ><IoLogoJavascript className='text-xl' /><span>JavaScript</span> </span>
-                <span className='p-1 rounded-md  flex items-center justify-center text-md gap-1 bg-gray-300 ' ><BiLogoTypescript className='text-xl' /><span>JavaScript</span> </span>
+                <span className='p-1 rounded-md  flex items-center justify-center text-md gap-1 bg-gray-300 ' ><BiLogoTypescript className='text-xl' /><span>TypeScript</span> </span>
                 <span className='p-1 rounded-md  flex items-center justify-center text-md gap-1 bg-gray-300 ' ><FaReact className='text-xl' /><span>React</span> </span>
                 <span className='p-1 rounded-md flex items-center justify-center text-md gap-1 bg-gray-300 ' ><RiNextjsFill className='text-xl' /><span>Next</span> </span>
                 <span className='p-1 rounded-md flex items-center justify-center text-md gap-1 bg-gray-300 ' ><TbBrandRedux className='text-xl' /><span>Redux</span> </span>
